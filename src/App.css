@@ -1,33 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: montserrat;
+}
+
 .App {
-  text-align: center;
+  position: relative;
+  width: 900px;
+  max-width: 100%;
+  height: 550px;
+  border: 1px solid grey;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left-container {
+  position: absolute;
+  width: 40%;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 3%;
+  background-color: #e26553;
+  height: 100%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.left-container label {
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-container input, .left-container select {
+  margin: 10px 10px 10px 0;
+  font-size: 20px;
+}
+
+.left-container input[type=number] {
+  width: 50px;
+  margin-left: 3%;
+  padding: 3px;
+}
+
+.right-container {
+  position: absolute;
+  width: 60%;
+  height: 500px;
+  right: 0;
+  top: 0;
+  padding: 3%;
+  padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  overflow: scroll;
+}
+
+article {
+  position: relative;
+  height: auto;
+}
+
+button {
+  align-self: flex-start;
+  font-size: 12px;
+  background: transparent;
+  border: transparent;
+  outline: none;
+  cursor: pointer;
+  color: grey;
+  margin-bottom: 20px;
+  transition: .5s;
+}
+
+button:before {
+  content: '[ ';
+}
+
+button:after {
+  content: ' ]';
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+button:hover {
+  color: green;
+}
+
+button i {
+  padding-left: 10px;
+}
+
+.pig {
+  width: 60%;
+  height: 40%;
+  background-image: url("./assets/pig.svg");
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 25%;
 }

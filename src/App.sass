@@ -1,0 +1,80 @@
+*
+  box-sizing: border-box
+  font-family: montserrat
+.App
+  position: relative
+  width: 900px
+  max-width: 100%
+  height: 550px
+  border: 1px solid grey
+  margin: auto
+  overflow: hidden
+  display: flex
+  flex-direction: row
+
+.left-container
+  position: absolute
+  width: 40%
+  top: 0
+  left: 0
+  display: flex
+  flex-direction: column
+  padding: 3%
+  background-color: rgb(226, 101, 83)
+  height: 100%
+  color: white
+  label
+    font-size: 20px
+  input, select
+    margin: 10px 10px 10px 0
+    font-size: 20px
+  input[type=number]
+    width: 50px
+    margin-left: 3%
+    padding: 3px
+
+.right-container
+  position: absolute
+  width: 60%
+  height: 500px
+  right: 0
+  top: 0
+  padding: 3%
+  padding-top: 55px
+  display: flex
+  flex-direction: column
+  font-size: 20px
+  overflow: scroll
+
+article
+  position: relative
+  height: auto
+
+button
+  align-self: flex-start
+  font-size: 12px
+  background: transparent
+  border: transparent
+  outline: none
+  cursor: pointer
+  color: grey
+  margin-bottom: 20px
+  transition: .5s
+  &:before
+    content: '[ '
+  &:after
+    content: ' ]'
+  &:active
+    transform: scale(.9)
+  &:hover
+    color: green
+  i
+    padding-left: 10px
+
+.pig
+  width: 60%
+  height: 40%
+  background-image: url('./assets/pig.svg')
+  background-repeat: no-repeat
+  margin: auto
+  margin-top: 25%
