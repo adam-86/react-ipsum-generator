@@ -7,6 +7,7 @@ export default class Type extends Component {
       value: props.value
     };
   }
+
   onChange = e => {
     this.setState({ value: e.target.value }, () => {
       this.props.onChange(this.state.value);
@@ -17,8 +18,10 @@ export default class Type extends Component {
     return (
       <div>
         <label>All meat or meat and filler?</label>
+        <br />
         <select onChange={this.onChange.bind(this)}>
           <option value="all-meat">all meat</option>
+
           <option value="meat-and-filler">meat and filler</option>
         </select>
       </div>

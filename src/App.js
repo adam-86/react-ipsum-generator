@@ -6,7 +6,6 @@ import Sentances from "./components/options/Sentances";
 
 import "./App.css";
 
-// import "./App.css";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -44,16 +43,19 @@ class App extends Component {
       });
   };
 
+  // Toggle all meat or meat and filler
   changeType = val => {
     this.setState({ type: val }, this.getText);
   };
 
+  // changes sentance count
   changeSentances = val => {
     this.setState({ sentances: val }, this.getText);
   };
 
+  //
   copyToClipboard = () => {
-    if (this.state.text != "") {
+    if (this.state.text !== "") {
       const textField = document.createElement("textarea");
       textField.innerText = this.state.text;
       document.body.appendChild(textField);
