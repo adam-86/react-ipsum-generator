@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/react-ipsum-generator/static/js/runtime~main.b17bcc71.js"
   },
   {
-    "revision": "77ed8947d2787bb96577",
-    "url": "/react-ipsum-generator/static/js/main.5fbdbeaf.chunk.js"
+    "revision": "8afa04d437efb2eea78c",
+    "url": "/react-ipsum-generator/static/js/main.9fbfa6fc.chunk.js"
   },
   {
     "revision": "9aa3f2d41fbd0badb467",
     "url": "/react-ipsum-generator/static/js/2.a437155b.chunk.js"
   },
   {
-    "revision": "77ed8947d2787bb96577",
-    "url": "/react-ipsum-generator/static/css/main.2a6f1efd.chunk.css"
+    "revision": "8afa04d437efb2eea78c",
+    "url": "/react-ipsum-generator/static/css/main.a908d68f.chunk.css"
   },
   {
-    "revision": "d61d4dc3837fd36fbf468f159f9a77b5",
+    "revision": "16df07146623dbb35fb2887495eee4e6",
     "url": "/react-ipsum-generator/index.html"
   }
 ];

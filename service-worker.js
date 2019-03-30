@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-ipsum-generator/precache-manifest.b43bd09609e2d2a661d91fd94fa3ef82.js"
+  "/react-ipsum-generator/precache-manifest.d6fcfef8c7575a1ef1e703d30ca66692.js"
 );
 
 workbox.clientsClaim();

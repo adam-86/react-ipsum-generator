@@ -1,14 +1,14 @@
 {
-  "main.css": "/react-ipsum-generator/static/css/main.2a6f1efd.chunk.css",
-  "main.js": "/react-ipsum-generator/static/js/main.5fbdbeaf.chunk.js",
-  "main.js.map": "/react-ipsum-generator/static/js/main.5fbdbeaf.chunk.js.map",
+  "main.css": "/react-ipsum-generator/static/css/main.a908d68f.chunk.css",
+  "main.js": "/react-ipsum-generator/static/js/main.9fbfa6fc.chunk.js",
+  "main.js.map": "/react-ipsum-generator/static/js/main.9fbfa6fc.chunk.js.map",
   "runtime~main.js": "/react-ipsum-generator/static/js/runtime~main.b17bcc71.js",
   "runtime~main.js.map": "/react-ipsum-generator/static/js/runtime~main.b17bcc71.js.map",
   "static/js/2.a437155b.chunk.js": "/react-ipsum-generator/static/js/2.a437155b.chunk.js",
   "static/js/2.a437155b.chunk.js.map": "/react-ipsum-generator/static/js/2.a437155b.chunk.js.map",
   "index.html": "/react-ipsum-generator/index.html",
-  "precache-manifest.b43bd09609e2d2a661d91fd94fa3ef82.js": "/react-ipsum-generator/precache-manifest.b43bd09609e2d2a661d91fd94fa3ef82.js",
+  "precache-manifest.d6fcfef8c7575a1ef1e703d30ca66692.js": "/react-ipsum-generator/precache-manifest.d6fcfef8c7575a1ef1e703d30ca66692.js",
   "service-worker.js": "/react-ipsum-generator/service-worker.js",
-  "static/css/main.2a6f1efd.chunk.css.map": "/react-ipsum-generator/static/css/main.2a6f1efd.chunk.css.map",
+  "static/css/main.a908d68f.chunk.css.map": "/react-ipsum-generator/static/css/main.a908d68f.chunk.css.map",
   "static/media/App.css": "/react-ipsum-generator/static/media/pig.3a59bc82.svg"
 }
