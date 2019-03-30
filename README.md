@@ -4,3 +4,5 @@
 * Select type
 * Enter sentace count
 * copy to clipboard
+
+## <a href="https://adam-86.github.io/react-ipsum-generator/">Live Link</a>
