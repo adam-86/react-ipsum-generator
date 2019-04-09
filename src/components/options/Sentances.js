@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 export default class Sentances extends Component {
   constructor(props) {
     super(props);
@@ -8,7 +9,6 @@ export default class Sentances extends Component {
   }
   onChange = e => {
     this.setState({ value: e.target.value }, () => {
-      //pass value to props so we can access it via props
       this.props.onChange(this.state.value);
     });
   };
@@ -17,7 +17,11 @@ export default class Sentances extends Component {
     return (
       <div>
         <label>How many sentances?</label>
-        <input type="number" onChange={this.onChange.bind(this)} />
+        <input
+          value={this.props.value}
+          type="number"
+          onChange={this.onChange.bind(this)}
+        />
       </div>
     );
   }

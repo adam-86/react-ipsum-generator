@@ -7,6 +7,7 @@ export default class Type extends Component {
       value: props.value
     };
   }
+
   onChange = e => {
     this.setState({ value: e.target.value }, () => {
       this.props.onChange(this.state.value);
